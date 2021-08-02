@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SaveNotes</servlet-name>
+  	<display-name>SaveNotes</display-name>
+  	<description></description>
+  	<servlet-class>servlets.SaveNotes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveNote</servlet-name>
+  	<display-name>SaveNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SaveNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteNote</servlet-name>
+  	<display-name>DeleteNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.DeleteNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateNote</servlet-name>
+  	<display-name>UpdateNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.UpdateNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HistoryServlet</servlet-name>
+  	<display-name>HistoryServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.HistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RestoreServlet</servlet-name>
+  	<display-name>RestoreServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.RestoreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SaveNotes</servlet-name>
+  	<url-pattern>/SaveNotes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveNote</servlet-name>
+  	<url-pattern>/SaveNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteNote</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateNote</servlet-name>
+  	<url-pattern>/UpdateNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HistoryServlet</servlet-name>
+  	<url-pattern>/History</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RestoreServlet</servlet-name>
+  	<url-pattern>/Restore</url-pattern>
+  </servlet-mapping>
+</web-app>
