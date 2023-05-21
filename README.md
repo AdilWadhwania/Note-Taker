@@ -1,5 +1,5 @@
 # Note-Taker
-You can add the notes which are important 
+You can add the notes that are important 
 Technologies used
 1) Jsp
 2) Servlet
